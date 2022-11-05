@@ -67,3 +67,12 @@ a:visited, a:link, a:hover, a:active {
     text-align: center;
     font-size: 30px;
 }
+
+div {
+    width: 150px;
+}
+
+#kontakt_title {
+    font-size: 25px;
+    text-align: center;
+}
