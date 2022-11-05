@@ -1,10 +1,14 @@
-nav ul {
-  list-style-type: none;
-  padding: 0;
+header {
+  background-color: #d7b5ae;
+  padding: 0px;
+}
+
+section {
+  display: flex;
 }
 
 article {
-  flex: 3;
+  flex: 7;
   background-color: #f1f1f1;
   padding: 10px;
 }
@@ -15,9 +19,27 @@ nav {
   padding: 20px;
 }
 
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    border: 1px solid #4CAF60;
+}
+
+li:hover {
+  background-color: blue;
+}
+
 footer {
-  background-color: #777;
+  background-color: #d7b5ae;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: black;
 }
+
